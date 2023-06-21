@@ -1,0 +1,55 @@
+name: Trigger Event | Action Plan
+about: Issue template for addressing triggering events and creating action plans
+
+title: '[TRIGGER] '
+labels: trigger-event
+
+body:
+  - type: checkboxes
+    id: actions
+    attributes:
+      label: Checklist for Trigger Event | Action Plan
+      description: Select the appropriate actions to address the triggering event
+      options:
+        - name: Identify and acknowledge the nature, severity, and impact of the event
+        - name: Inform all team leads about the event
+        - name: Schedule an emergency meeting with team leads
+        - name: Evaluate impact on ongoing projects, timelines, resources, and deliverables
+        - name: Determine priority levels for affected projects
+        - name: Assess resource reallocation or priority adjustments
+        - name: Collaborate with team leads to decide the best course of action
+        - name: Develop an action plan with clear objectives, tasks, and responsibilities
+        - name: Assign tasks to team members and set realistic deadlines
+        - name: Establish a communication plan for stakeholders
+        - name: Provide regular updates and maintain transparency
+        - name: Conduct follow-up meetings to assess effectiveness and make adjustments
+        - name: Document events, actions, and outcomes for future reference and improvement
+      required: true
+
+  - type: input
+    id: issue_time
+    attributes:
+      label: Issue Occurrence Time
+      description: Enter the time when the issue occurred
+      required: true
+
+  - type: input
+    id: issue_discoverer
+    attributes:
+      label: Issue Discoverer
+      description: Provide the name of the person who discovered the issue
+      required: true
+
+  - type: input
+    id: action_plan_start_time
+    attributes:
+      label: Action Plan Start Time
+      description: Enter the time when the action plan was initiated
+      required: true
+
+  - type: input
+    id: issue_resolution_time
+    attributes:
+      label: Issue Resolution Time
+      description: Enter the time when the issue was resolved
+      required: true
