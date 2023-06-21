@@ -11,13 +11,19 @@ body:
       label: Checklist for Trigger Event | Action Plan
       description: Select the appropriate actions to address the triggering event
       options:
-        - Identify and acknowledge the nature, severity, and impact of the event
-        - Inform all team leads about the event
-        - Schedule an emergency meeting with team leads
-        - Evaluate impact on ongoing projects, timelines, resources, and deliverables
-        - Determine priority levels for affected projects
-        - Assess resource reallocation or priority adjustments
-      required: true
+        - label: Identify and acknowledge the nature, severity, and impact of the event
+        - label: Inform all team leads about the event
+        - label: Schedule an emergency meeting with team leads
+        - label: Evaluate impact on ongoing projects, timelines, resources, and deliverables
+        - label: Determine priority levels for affected projects
+        - label: Assess resource reallocation or priority adjustments
+        - label: Collaborate with team leads to decide the best course of action
+        - label: Develop an action plan with clear objectives, tasks, and responsibilities
+        - label: Assign tasks to team members and set realistic deadlines
+        - label: Establish a communication plan for stakeholders
+        - label: Provide regular updates and maintain transparency
+        - label: Conduct follow-up meetings to assess effectiveness and make adjustments
+        - label: Document events, actions, and outcomes for future reference and improvement
 
   - type: input
     id: issue_time
