@@ -1,8 +1,8 @@
 name: Trigger Event | Action Plan
-about: Issue template for addressing triggering events and creating action plans
+description: Issue template for addressing triggering events and creating action plans
 
 title: '[TRIGGER] '
-labels: trigger-event
+labels: incident
 
 body:
   - type: checkboxes
