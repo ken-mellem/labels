@@ -29,12 +29,13 @@ body:
     id: issue_time
     attributes:
       label: Issue Occurrence Time
-      description: Enter the time when the issue occurred
-      required: true
+      placeholder: 2023-05-05 10:00
+      description: Enter the time when the issue occurred      
 
   - type: input
     id: issue_discoverer
     attributes:
       label: Issue Discoverer
+      placeholder: Forrest Gump
       description: Provide the name of the person who discovered the issue
-      required: true
+    
